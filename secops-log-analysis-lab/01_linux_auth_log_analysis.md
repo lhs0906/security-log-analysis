@@ -81,7 +81,7 @@ $ grep "Failed password" sample_secure.log | awk '{print $(NF-5)}' | sort | uniq
 
 <br>
 
-![alt text](image/9.png)
+![alt text](01_image/9.png)
 
 
 <br>
