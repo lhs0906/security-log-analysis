@@ -11,7 +11,7 @@
 * 권한 상승 시도 추적: `su` 및 `sudo` 명령어 실행 이력 확인
 * **로그 파싱 및 통계 집계 파이프라인 구축**: 실패 로그에서 특정 필드 추출 후 빈도수 집계
 
-![alt text](image/5.png)
+![alt text](01_image/5.png)
 
 <br>
 
@@ -19,8 +19,8 @@
 * 문제 상황: 대소문자 구분(`grep` 기본 동작) 및 로그 포맷 차이로 인해 원하는 필드(`$(NF-3)`) 추출 시 공백 또는 세미콜론(;)이 출력됨.
 * 해결 방법: `-i` 옵션을 추가하여 대소문자 무시 검색을 수행하고, 원본 로그 포맷을 먼저 `tail`로 검증한 뒤 필드 번호 재조정.
 
-![alt text](image/2.png)
-![alt text](image/4.png)
+![alt text](01_image/2.png)
+![alt text](01_image/4.png)
 
 <br>
 
@@ -52,8 +52,8 @@
 * sort -n 옵션 : 숫자로 인식해서 크기를 비교
 * sort -r 옵션 : 역순으로 정렬
 
-![alt text](image/7.png)
-![alt text](image/8.png)
+![alt text](01_image/7.png)
+![alt text](01_image/8.png)
 
 <br>
 <br>
